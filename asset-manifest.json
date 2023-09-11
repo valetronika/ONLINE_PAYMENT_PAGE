@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ONLINE_PAYMENT_PAGE/static/css/main.e9156fd6.css",
-    "main.js": "/ONLINE_PAYMENT_PAGE/static/js/main.308002d0.js",
+    "main.css": "/ONLINE_PAYMENT_PAGE/static/css/main.31aa3e43.css",
+    "main.js": "/ONLINE_PAYMENT_PAGE/static/js/main.39a1191c.js",
     "static/media/visa.svg": "/ONLINE_PAYMENT_PAGE/static/media/visa.e0b4de8bd2e96ebe8bd923707f918e80.svg",
     "static/media/mastercard.svg": "/ONLINE_PAYMENT_PAGE/static/media/mastercard.e5eb2dc4adfea83f8649e259384d5761.svg",
     "static/media/faster_pay.svg": "/ONLINE_PAYMENT_PAGE/static/media/faster_pay.1d0d3ed7ae3d0a0e5d8620ae68be3d84.svg",
     "index.html": "/ONLINE_PAYMENT_PAGE/index.html",
     "static/media/linie.svg": "/ONLINE_PAYMENT_PAGE/static/media/linie.95b999e91b2eaabcae7854f17ea87c8e.svg",
-    "main.e9156fd6.css.map": "/ONLINE_PAYMENT_PAGE/static/css/main.e9156fd6.css.map",
-    "main.308002d0.js.map": "/ONLINE_PAYMENT_PAGE/static/js/main.308002d0.js.map"
+    "main.31aa3e43.css.map": "/ONLINE_PAYMENT_PAGE/static/css/main.31aa3e43.css.map",
+    "main.39a1191c.js.map": "/ONLINE_PAYMENT_PAGE/static/js/main.39a1191c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9156fd6.css",
-    "static/js/main.308002d0.js"
+    "static/css/main.31aa3e43.css",
+    "static/js/main.39a1191c.js"
   ]
 }
