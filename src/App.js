@@ -11,7 +11,7 @@ function App() {
 
     return (
         <div className="main-container">
-            <a href="https://github.com/valetronika/ONLINE_PAYMENT_PAGE" className="link_git">{`github<<< `}</a>
+            <a href="https://github.com/valetronika/ONLINE_PAYMENT_PAGE/tree/master" className="link_git">{`github<<< `}</a>
             <div className="main-container__pay">
                 <PaymentForm dataCards={dataCards} setDataCards={setDataCards} />
                 <ImageItem/>
