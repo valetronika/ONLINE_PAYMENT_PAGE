@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import PaymentForm from "./components/PaymentForm/PaymentForm";
+import TableItem from "./components/TableItem/TableItem";
+import ImageItem from "./components/ImageItem/ImageItem";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let datas = JSON.parse(localStorage.getItem("data"));
+    const [dataCards, setDataCards] = useState(datas && datas.length>0? datas:[]);
+
+
+    return (
+        <div className="main-container">
+            <a href="https://github.com/valetronika/ONLINE_PAYMENT_PAGE" className="link_git">{`github<<< `}</a>
+            <div className="main-container__pay">
+                <PaymentForm dataCards={dataCards} setDataCards={setDataCards} />
+                <ImageItem/>
+            </div>
+            <TableItem dataCards={dataCards} setDataCards={setDataCards}/>
+        </div>
+    );
 }
 
 export default App;

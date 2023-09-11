@@ -1,0 +1,129 @@
+input {
+    border: 2px solid #adadad;
+    background: #fff;
+    height: 42px;
+    width: 100%;
+    padding: 10px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+input::placeholder {
+    color: #a0a0a0;
+    font-weight: 700;
+}
+.form_wrapper {
+    min-height: 390px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards {
+    width: 500px;
+    height: 274px;
+    position: relative;
+}
+//errors style
+.label {
+    position: relative;
+}
+.error {
+    position: absolute;
+    // top:43px;
+    right: 0;
+
+    color: red;
+    font-size: 12px;
+}
+//----------------
+.front_side {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+
+    width: 388px;
+    height: 239px;
+    padding: 24px 36px 24px 28px;
+
+    border-radius: 10px;
+    border: 0px solid #000;
+    background: #ececec;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+
+    &__down {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+    p {
+        // color: #000;
+        // font-size: 15px;
+        // font-weight: 400;
+    }
+}
+
+.back_side_container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+
+    width: 388px;
+    height: 239px;
+
+    padding: 31px 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+
+    border-radius: 10px;
+    background: #c7c7c7;
+
+    div {
+        width: 100%;
+        height: 50px;
+        background: #979797;
+    }
+    label {
+        margin: 0 22px 0 0;
+    }
+}
+
+.conf_info {
+    width: 73px;
+    height: 42px;
+    border: 2px solid #adadad;
+    background: #fff;
+}
+
+.btn {
+    width: 187px;
+    height: 48px;
+
+    &__submit {
+        width: 187px;
+        height: 48px;
+        border-radius: 11px;
+        background: #95b0d8;
+        border: 1px solid #95b0d8;
+
+        color: #fff;
+        font-size: 25px;
+        font-weight: 400;
+        padding: 8px;
+    }
+}

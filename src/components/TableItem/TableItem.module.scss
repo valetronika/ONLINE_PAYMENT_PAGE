@@ -1,0 +1,40 @@
+.table-wrapper {
+    border-radius: 28px;
+    background: #95b0d8;
+    width: 723px;
+    // height: 221px;
+
+    padding: 25px;
+    margin-top: 55px;
+}
+
+.table {
+    width: 680px;
+    // height: 160px;
+    border-collapse: collapse;
+    &__head {
+        border-radius: 0px 4px 0px 0px;
+        border: 1px solid #828282;
+        background: #e5e5e5;
+
+        width: 170px;
+        height: 40px;
+
+
+        th{
+
+            border: 1px solid #828282;
+        }
+    }
+    &__body{
+        border: 1px solid #828282;
+        background: #FFF;
+        
+        td{
+            height: 40px;
+            padding: 10px;
+            border: 1px solid #828282;
+
+        }
+    }
+}
